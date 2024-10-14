@@ -2,7 +2,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 
 # Pastikan path di bawah ini benar
-img_path = 'C:\\penpol\\dataset\\train\\class1\\penpol1.jpg'
+img_path = 'C:\\penpol\\dataset\\train\\class2\\penpol3.jpg'
 
 try:
     img = tf.io.read_file(img_path)
